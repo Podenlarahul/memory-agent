@@ -211,6 +211,7 @@ python -c "import sys; sys.path.insert(0, 'backend'); import pytest; sys.exit(py
 
 ## 👥 Hackathon Team
 
-* **Project:** SupportMind
+* **Project:** Tech Rah Solutions
+
 * **Hackathon:** HackWithHyderabad 3.0
 * **Category:** AI Customer Support Agent with Long-Term Memory
