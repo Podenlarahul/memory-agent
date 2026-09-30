@@ -17,6 +17,8 @@ Traditional customer support systems suffer from **conversational amnesia**:
 
 ## 💡 Solution
 
+Live URL : https://support-mind-one.vercel.app/
+
 **SupportMind** is an enterprise-grade AI customer support platform powered by **Hindsight** as its persistent long-term memory system.
 
 * **Autonomous Memory Extraction:** During natural support chats, SupportMind extracts high-signal context (device specifications, recurring symptoms, successful fixes, and failed attempts) and commits them to Hindsight Cloud.
