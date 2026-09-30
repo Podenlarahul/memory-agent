@@ -1,0 +1,570 @@
+{
+  "customers": {
+    "cust_rahul_001": {
+      "id": "cust_rahul_001",
+      "name": "Rahul Verma",
+      "email": "rahul@example.com",
+      "company": "TechCorp India",
+      "device": "Asus Zenbook 14",
+      "location": "Hyderabad, India",
+      "phone": "+91 98765-11001",
+      "plan": "Enterprise Support",
+      "total_tickets": 2,
+      "open_tickets": 2,
+      "status": "active",
+      "avatar": "RV",
+      "member_since": "September 2024",
+      "last_active": "10 mins ago",
+      "known_issues": [
+        {
+          "id": "iss_r1",
+          "title": "Wi-Fi keeps disconnecting during Zoom",
+          "context": "Network adapter dropping packets during video conferencing",
+          "status": "open",
+          "severity": "high",
+          "reported_at": "10 mins ago"
+        },
+        {
+          "id": "iss_r2",
+          "title": "VPN Gateway packet drop",
+          "context": "MTU size mismatched on router",
+          "status": "open",
+          "severity": "medium",
+          "reported_at": "1 day ago"
+        }
+      ],
+      "solutions_worked": [
+        {
+          "title": "Driver Power Saving",
+          "note": "Disabled Wi-Fi power saving mode",
+          "date": "10 mins ago",
+          "successful": true
+        }
+      ],
+      "solutions_failed": [],
+      "preferences": [
+        "Prefers quick troubleshooting steps"
+      ]
+    },
+    "cust_nandini_002": {
+      "id": "cust_nandini_002",
+      "name": "Sri Nandini",
+      "email": "nandini@example.com",
+      "company": "Infosys Digital",
+      "device": "Dell XPS 15",
+      "location": "Bangalore, India",
+      "phone": "+91 98765-22002",
+      "plan": "Premium Support",
+      "total_tickets": 2,
+      "open_tickets": 1,
+      "status": "active",
+      "avatar": "SN",
+      "member_since": "September 2024",
+      "last_active": "45 mins ago",
+      "known_issues": [
+        {
+          "id": "iss_n1",
+          "title": "Laptop battery draining quickly, and overheating",
+          "context": "Background indexing services consuming CPU cycles",
+          "status": "in_progress",
+          "severity": "medium",
+          "reported_at": "45 mins ago"
+        },
+        {
+          "id": "iss_n2",
+          "title": "Display color profile shift",
+          "context": "Intel graphics command center HDR profile",
+          "status": "resolved",
+          "severity": "low",
+          "reported_at": "4 days ago"
+        }
+      ],
+      "solutions_worked": [
+        {
+          "title": "Disabled Windows Search Indexing",
+          "note": "Reduced background CPU draw by 25%",
+          "date": "45 mins ago",
+          "successful": true
+        }
+      ],
+      "solutions_failed": [],
+      "preferences": [
+        "Prefers step-by-step visual steps"
+      ]
+    },
+    "cust_arjun_003": {
+      "id": "cust_arjun_003",
+      "name": "Arjun Mehta",
+      "email": "arjun@example.com",
+      "company": "Wipro Tech",
+      "device": "Lenovo ThinkPad X1",
+      "location": "Mumbai, India",
+      "phone": "+91 98765-33003",
+      "plan": "Standard Support",
+      "total_tickets": 1,
+      "open_tickets": 1,
+      "status": "active",
+      "avatar": "AM",
+      "member_since": "September 2024",
+      "last_active": "2 hours ago",
+      "known_issues": [
+        {
+          "id": "iss_a1",
+          "title": "Printer not working on Windows 11",
+          "context": "Spooler service crashing on network print jobs",
+          "status": "open",
+          "severity": "high",
+          "reported_at": "2 hours ago"
+        }
+      ],
+      "solutions_worked": [],
+      "solutions_failed": [],
+      "preferences": [
+        "Prefers command-line instructions"
+      ]
+    },
+    "cust_priya_004": {
+      "id": "cust_priya_004",
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "company": "Global Finance",
+      "device": "MacBook Air M2",
+      "location": "Delhi, India",
+      "phone": "+91 98765-44004",
+      "plan": "Enterprise Support",
+      "total_tickets": 2,
+      "open_tickets": 0,
+      "status": "active",
+      "avatar": "PS",
+      "member_since": "September 2024",
+      "last_active": "3 hours ago",
+      "known_issues": [
+        {
+          "id": "iss_p1",
+          "title": "VPN connection drops frequently",
+          "context": "IKEv2 session timeout adjusted to 1380 MTU",
+          "status": "resolved",
+          "severity": "medium",
+          "reported_at": "3 hours ago"
+        },
+        {
+          "id": "iss_p2",
+          "title": "Outlook exchange sync delay",
+          "context": "Exchange cache mode re-indexed",
+          "status": "resolved",
+          "severity": "low",
+          "reported_at": "5 days ago"
+        }
+      ],
+      "solutions_worked": [
+        {
+          "title": "VPN Keepalive Setting",
+          "note": "Enabled Dead Peer Detection (DPD)",
+          "date": "3 hours ago",
+          "successful": true
+        }
+      ],
+      "solutions_failed": [],
+      "preferences": [
+        "Send email summaries of resolutions"
+      ]
+    },
+    "cust_karthik_7873": {
+      "id": "cust_karthik_7873",
+      "name": "Karthik Reddy",
+      "email": "karthik@example.com",
+      "company": "Personal",
+      "device": "ASUS Vivobook 15",
+      "location": "Hyderabad, India",
+      "phone": "+91 98765-43210",
+      "plan": "Premium Support",
+      "total_tickets": 3,
+      "open_tickets": 1,
+      "status": "active",
+      "avatar": "KR",
+      "member_since": "September 2024",
+      "last_active": "Just now",
+      "known_issues": [
+        {
+          "id": "iss_001",
+          "title": "Wi-Fi disconnects frequently",
+          "context": "Drops intermittently during video conferencing",
+          "status": "open",
+          "severity": "high",
+          "reported_at": "Created 2 days ago"
+        },
+        {
+          "id": "iss_002",
+          "title": "Printer driver installation issue",
+          "context": "HP LaserJet driver conflict resolved",
+          "status": "resolved",
+          "severity": "medium",
+          "reported_at": "Resolved 5 days ago"
+        },
+        {
+          "id": "iss_003",
+          "title": "Battery drain problem",
+          "context": "Background service power draw resolved via registry",
+          "status": "resolved",
+          "severity": "low",
+          "reported_at": "Resolved 1 week ago"
+        }
+      ],
+      "solutions_worked": [
+        {
+          "title": "Driver Power Management",
+          "note": "Disabled aggressive power saving on Wi-Fi adapter",
+          "date": "5 days ago",
+          "successful": true
+        },
+        {
+          "title": "Standby Registry Tune",
+          "note": "Adjusted PCIe ASPM link states",
+          "date": "1 week ago",
+          "successful": true
+        }
+      ],
+      "solutions_failed": [],
+      "preferences": [
+        "Prefers concise step-by-step instructions"
+      ]
+    },
+    "cust_integration_test_user_9894": {
+      "id": "cust_integration_test_user_9894",
+      "name": "Integration Test User",
+      "email": "integration_test_user@example.com",
+      "company": "Integration Labs",
+      "device": "Pixel 8 Pro",
+      "location": "Not specified",
+      "phone": "+91 98765-43210",
+      "plan": "Standard Support",
+      "total_tickets": 2,
+      "open_tickets": 1,
+      "status": "active",
+      "avatar": "IT",
+      "member_since": "September 2024",
+      "last_active": "Just registered",
+      "known_issues": [
+        {
+          "id": "iss_1790599897",
+          "title": "Pixel 8 Pro Speaker Crackling",
+          "context": "Crackling sound during speakerphone calls",
+          "status": "open",
+          "severity": "high",
+          "reported_at": "Just now"
+        }
+      ],
+      "solutions_worked": [],
+      "solutions_failed": [],
+      "preferences": []
+    },
+    "cust_chundrukarthik000_248": {
+      "id": "cust_chundrukarthik000_248",
+      "name": "Chundrukarthik000",
+      "email": "chundrukarthik000@gmail.com",
+      "company": "Personal",
+      "device": "ASUS Vivobook 15",
+      "location": "Not specified",
+      "phone": "+91 98765-43210",
+      "plan": "Standard Support",
+      "total_tickets": 2,
+      "open_tickets": 2,
+      "status": "active",
+      "avatar": "C",
+      "member_since": "September 2024",
+      "last_active": "Just registered",
+      "known_issues": [],
+      "solutions_worked": [],
+      "solutions_failed": [],
+      "preferences": []
+    }
+  },
+  "conversations": {
+    "cust_rahul_001": [
+      {
+        "id": "conv_rahul_001",
+        "customer_id": "cust_rahul_001",
+        "title": "Wi-Fi keeps disconnecting during Zoom",
+        "status": "resolved",
+        "updated_at": "10 mins ago",
+        "messages": [
+          {
+            "id": "m_r1",
+            "sender": "customer",
+            "sender_name": "Rahul Verma",
+            "message": "My Wi-Fi keeps disconnecting during Zoom meetings on my Asus Zenbook.",
+            "timestamp": "10 mins ago",
+            "memories_used": null
+          },
+          {
+            "id": "m_r2",
+            "sender": "ai",
+            "sender_name": "SupportMind AI",
+            "message": "I checked your adapter power settings. Disabling aggressive roaming and power saving has resolved this issue.",
+            "timestamp": "9 mins ago",
+            "memories_used": [
+              "Wi-Fi roaming setting on Asus Zenbook"
+            ]
+          }
+        ]
+      }
+    ],
+    "cust_nandini_002": [
+      {
+        "id": "conv_nandini_002",
+        "customer_id": "cust_nandini_002",
+        "title": "Laptop battery draining quickly, and overheating",
+        "status": "in_progress",
+        "updated_at": "45 mins ago",
+        "messages": [
+          {
+            "id": "m_n1",
+            "sender": "customer",
+            "sender_name": "Sri Nandini",
+            "message": "Laptop battery draining quickly, and overheating during heavy tasks.",
+            "timestamp": "45 mins ago",
+            "memories_used": null
+          },
+          {
+            "id": "m_n2",
+            "sender": "ai",
+            "sender_name": "SupportMind AI",
+            "message": "Let's optimize PCIe ASPM and stop excessive background indexing services.",
+            "timestamp": "44 mins ago",
+            "memories_used": null
+          }
+        ]
+      }
+    ],
+    "cust_arjun_003": [
+      {
+        "id": "conv_arjun_003",
+        "customer_id": "cust_arjun_003",
+        "title": "Printer not working on Windows 11",
+        "status": "open",
+        "updated_at": "2 hours ago",
+        "messages": [
+          {
+            "id": "m_a1",
+            "sender": "customer",
+            "sender_name": "Arjun Mehta",
+            "message": "Printer not working on Windows 11 after yesterday's update.",
+            "timestamp": "2 hours ago",
+            "memories_used": null
+          },
+          {
+            "id": "m_a2",
+            "sender": "ai",
+            "sender_name": "SupportMind AI",
+            "message": "Let's restart the Print Spooler and clear corrupted shadow files.",
+            "timestamp": "2 hours ago",
+            "memories_used": null
+          }
+        ]
+      }
+    ],
+    "cust_priya_004": [
+      {
+        "id": "conv_priya_004",
+        "customer_id": "cust_priya_004",
+        "title": "VPN connection drops frequently",
+        "status": "resolved",
+        "updated_at": "3 hours ago",
+        "messages": [
+          {
+            "id": "m_p1",
+            "sender": "customer",
+            "sender_name": "Priya Sharma",
+            "message": "VPN connection drops frequently every 15 minutes.",
+            "timestamp": "3 hours ago",
+            "memories_used": null
+          },
+          {
+            "id": "m_p2",
+            "sender": "ai",
+            "sender_name": "SupportMind AI",
+            "message": "Adjusted MTU to 1380 and enabled NAT-T keepalive packets.",
+            "timestamp": "3 hours ago",
+            "memories_used": null
+          }
+        ]
+      }
+    ],
+    "cust_karthik_7873": [
+      {
+        "id": "conv_cust_karthik_7873_wifi",
+        "customer_id": "cust_karthik_7873",
+        "title": "Wi-Fi keeps disconnecting during Zoom",
+        "status": "open",
+        "updated_at": "2 hours ago",
+        "messages": [
+          {
+            "id": "m1",
+            "sender": "customer",
+            "sender_name": "Karthik Reddy",
+            "message": "My Wi-Fi keeps disconnecting during Zoom meetings on my ASUS Vivobook.",
+            "timestamp": "11:30 AM",
+            "memories_used": null
+          },
+          {
+            "id": "m2",
+            "sender": "ai",
+            "sender_name": "SupportMind AI",
+            "message": "I remember you previously had a similar Wi-Fi issue on your ASUS. Let me suggest adjusting roaming aggressiveness.",
+            "timestamp": "11:31 AM",
+            "memories_used": [
+              "Wi-Fi drops on ASUS Vivobook during Zoom"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "conv_cust_karthik_7873_battery",
+        "customer_id": "cust_karthik_7873",
+        "title": "Laptop battery draining quickly",
+        "status": "resolved",
+        "updated_at": "1 day ago",
+        "messages": [
+          {
+            "id": "m3",
+            "sender": "customer",
+            "sender_name": "Karthik Reddy",
+            "message": "My battery drains within 2 hours.",
+            "timestamp": "Yesterday",
+            "memories_used": null
+          },
+          {
+            "id": "m4",
+            "sender": "ai",
+            "sender_name": "SupportMind AI",
+            "message": "Here are some steps to check background apps and power settings...",
+            "timestamp": "Yesterday",
+            "memories_used": null
+          }
+        ]
+      },
+      {
+        "id": "conv_cust_karthik_7873_printer",
+        "customer_id": "cust_karthik_7873",
+        "title": "Printer not working on Windows 11",
+        "status": "resolved",
+        "updated_at": "3 days ago",
+        "messages": [
+          {
+            "id": "m5",
+            "sender": "customer",
+            "sender_name": "Karthik Reddy",
+            "message": "Can't connect to office printer.",
+            "timestamp": "3 days ago",
+            "memories_used": null
+          },
+          {
+            "id": "m6",
+            "sender": "ai",
+            "sender_name": "SupportMind AI",
+            "message": "Let me help you troubleshoot the printer connection issue...",
+            "timestamp": "3 days ago",
+            "memories_used": null
+          }
+        ]
+      },
+      {
+        "id": "conv_cust_karthik_7873_vpn",
+        "customer_id": "cust_karthik_7873",
+        "title": "VPN connection issues",
+        "status": "resolved",
+        "updated_at": "5 days ago",
+        "messages": [
+          {
+            "id": "m7",
+            "sender": "customer",
+            "sender_name": "Karthik Reddy",
+            "message": "VPN connection drops packet buffers.",
+            "timestamp": "5 days ago",
+            "memories_used": null
+          },
+          {
+            "id": "m8",
+            "sender": "ai",
+            "sender_name": "SupportMind AI",
+            "message": "Based on your previous setup, let's try adjusting the MTU settings...",
+            "timestamp": "5 days ago",
+            "memories_used": null
+          }
+        ]
+      }
+    ],
+    "cust_integration_test_user_9894": [
+      {
+        "id": "conv_cust_integration_test_user_9894_1_1790599894",
+        "customer_id": "cust_integration_test_user_9894",
+        "title": "Pixel 8 Speaker Distortion",
+        "status": "resolved",
+        "updated_at": "Just now",
+        "messages": [
+          {
+            "id": "msg_cust_integration_test_user_9894_usr_1790599897529",
+            "sender": "customer",
+            "sender_name": "Integration Test User",
+            "message": "My phone speaker has distortion at high volume on my Google Pixel 8 Pro.",
+            "timestamp": "06:21 PM",
+            "memories_used": null
+          },
+          {
+            "id": "msg_cust_integration_test_user_9894_ai_1790599897534",
+            "sender": "ai",
+            "sender_name": "SupportMind AI",
+            "message": "Hi Integration Test User! Let's troubleshoot the speaker and sound issue on your phone.\n\nHere are the targeted steps to resolve mobile phone speaker and audio problems:\n\n1. **Check Physical Volume & Silent/DND Modes:**\n   - Press the physical **Volume Up** button on the side of your phone, tap the slider settings menu, and ensure **Media**, **Ring**, and **Call** volumes are all turned up.\n   - Check if your phone is set to **Silent / Vibrate** (or if the physical alert/mute switch on iPhone/OnePlus is toggled to silent).\n   - Ensure **Do Not Disturb (DND)** or Focus Mode is turned off in your swipe-down Quick Settings / Control Center.\n\n2. **Disconnect Bluetooth & Stuck Audio Routing:**\n   - Oftentimes, phone audio is silently routing to connected Bluetooth earbuds, a car stereo, or a smartwatch.\n   - Temporarily turn off **Bluetooth** in your phone settings to verify if sound immediately returns to the phone's built-in speaker.\n   - Inspect the charging/headphone port with a flashlight to ensure pocket lint isn't tricking the phone into thinking headphones are still connected (headphone mode bug).\n\n3. **Clean the Speaker Grills:**\n   - Dust and pocket lint often clog the bottom loudspeaker and top ear-speaker grill. Gently brush the speaker openings with a dry, soft-bristle toothbrush.\n\n4. **Restart Your Phone:**\n   - A quick reboot clears temporary audio service freezes in iOS / Android and resets the audio hardware controller.\n\n5. **Test with Built-in Voice Recorder / Ringtone:**\n   - Open your phone's built-in Voice Recorder / Voice Memos app, record a 5-second test clip, and play it back to check hardware clarity.\n\nAre you using an iPhone or Android? And is the sound missing during phone calls, media playback (YouTube/Spotify), or completely across all apps?",
+            "timestamp": "06:21 PM",
+            "memories_used": []
+          }
+        ]
+      }
+    ],
+    "cust_chundrukarthik000_248": [
+      {
+        "id": "conv_cust_chundrukarthik000_248_2_1790600253",
+        "customer_id": "cust_chundrukarthik000_248",
+        "title": "Support Session - 28/9/2026",
+        "status": "open",
+        "updated_at": "Just now",
+        "messages": [
+          {
+            "id": "msg_cust_chundrukarthik000_248_usr_1790600268526",
+            "sender": "customer",
+            "sender_name": "Chundrukarthik000",
+            "message": "hi",
+            "timestamp": "06:27 PM",
+            "memories_used": null
+          },
+          {
+            "id": "msg_cust_chundrukarthik000_248_ai_1790600268533",
+            "sender": "ai",
+            "sender_name": "SupportMind AI",
+            "message": "Hello Chundrukarthik000! How can I assist you today? Please feel free to describe any technical issue or question you have on your ASUS Vivobook 15.",
+            "timestamp": "06:27 PM",
+            "memories_used": []
+          }
+        ]
+      },
+      {
+        "id": "conv_cust_chundrukarthik000_248_1_1790600253",
+        "customer_id": "cust_chundrukarthik000_248",
+        "title": "Support Session - 28/9/2026",
+        "status": "open",
+        "updated_at": "Just now",
+        "messages": []
+      }
+    ]
+  },
+  "passwords": {
+    "admin@supportmind.ai": "admin123",
+    "admin@supportmind.com": "admin123",
+    "rahul@example.com": "password123",
+    "nandini@example.com": "password123",
+    "arjun@example.com": "password123",
+    "priya@example.com": "password123",
+    "integration_test_user@example.com": "password123",
+    "chundrukarthik000@gmail.com": "Karthik@5212"
+  }
+}
